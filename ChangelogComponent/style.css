@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	padding: 40px;
+	max-width: 900px;
+	margin: 40px auto; /*centralizou e deu espaçamento em cima e baixo*/
+	border: 2px solid black;
+	border-radius: 40px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+header h1 {
+	font-size: 4rem;
+	margin-bottom: 10px;
+}
+
+header p {
+	color: #999;
+	font-size: 1.2rem;
+}
+
+.timeline-list {
+	margin: 0 auto;
+	width: fit-content;
+	list-style: none;
+}
+
+.timeline-item {
+	gap: 30px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	position: relative; /* os pseudo-elementos (::before e ::after) vão se posicionar usando esse item como referência. */
+}
+
+.timeline-item time {
+	width: 180px;
+	color: #999;
+	text-align: right;
+}
+
+.timeline-item span {
+	font-weight: bold;
+}
+
+button {
+	display: block;
+	margin: 40px auto 0;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 12px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+/* bolinhas */
+.timeline-item::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: black;
+
+	position: absolute;
+	left: 188px;
+}
+
+/* linha reta */
+.timeline {
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.timeline::before {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 400px;
+	left: 280px;
+	top: -32px;
+	background-color: black;
+}
