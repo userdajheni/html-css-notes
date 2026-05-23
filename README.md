@@ -11,4 +11,5 @@ Aqui compartilho exercícios, testes e projetos desenvolvidos durante meu aprend
 
 ## 📁 Projetos
 
+- [Basic Html Website](https://userdajheni.github.io/html-css-notes/basic-html-website/)
 - [Single-Page CV](https://userdajheni.github.io/html-css-notes/projeto-single-page/)
