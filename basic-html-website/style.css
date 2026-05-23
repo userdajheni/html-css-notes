@@ -1,0 +1,114 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&family=Story+Script&display=swap');
+
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #111;
+	font-family: "Estedad", sans-serif;
+}
+
+a {
+	text-decoration: none; /* remove o sublinhado */
+}
+
+h1, h2, h3 {
+	font-family: "Story Script", cursive;
+	font-weight: normal;
+}
+
+/* cabeçalho */
+header {
+	padding: 20px;
+	border: 2px solid black;
+}
+
+nav {
+	display: flex; /* coloca tudo um do lado do outro, em linha */
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a {
+	color: black;
+	margin-left: 20px; /* cria espaço entre os links */
+}
+
+header section {
+	text-align: center;
+	padding: 60px 0;
+}
+
+header h1 {
+	font-size: 3rem;
+	margin-bottom: 10px;
+}
+
+header section p {
+	color: #b7b7b7;
+}
+
+/* conteudo principal */
+.container {
+	display: flex; /* alinhou lado a lado */
+}
+
+.container section {
+	flex: 1; /* todos ocupam o mesmo espaço */
+	border: 1px solid black;
+}
+
+.projects-list {
+	list-style: none;
+}
+
+.projects-list li {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+main section {
+	padding: 40px;
+}
+
+.container article,
+.container p {
+	padding: 15px;
+}
+
+/* reviews */
+.reviews {
+	padding: 40px 20px;
+}
+
+.reviews h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.reviews-container {
+	display: flex;
+	gap: 20px; /* espaço entre eles */
+}
+
+.reviews article {
+	flex: 1;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+.reviews article p:last-child {
+	margin-top: 20px;
+	color: #888;
+}
+
+footer {
+	padding: 10px;
+	text-align: center;
+}
