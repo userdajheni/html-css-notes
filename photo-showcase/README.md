@@ -14,7 +14,3 @@ Criar uma página de galeria de fotos utilizando boas práticas de acessibilidad
 ## Projeto original
 
 https://roadmap.sh/projects/photo-showcase
-
-## Projeto online
-
-https://userdajheni.github.io/html-css-notes/photo-showcase/
