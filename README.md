@@ -4,6 +4,8 @@ Repositório criado para armazenar meus estudos, anotações e projetos prático
 
 Aqui compartilho exercícios, testes e projetos desenvolvidos durante meu aprendizado em desenvolvimento front-end.
 
+Project Ideias [roadmap.sh](https://roadmap.sh/projects/)
+
 ## 🚀 Tecnologias
 
 - HTML5
